@@ -1,0 +1,50 @@
+{
+  "name": "front-end-test",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "fixme": "^0.5.0",
+    "github-api": "^3.0.0",
+    "history": "^4.7.2",
+    "jsdoc": "^3.5.5",
+    "moment": "^2.22.2",
+    "prop-types": "^15.6.1",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-pagination-table": "^2.0.2",
+    "react-redux": "^5.0.7",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-router-redux": "^5.0.0-alpha.9",
+    "react-scripts": "1.1.4",
+    "redux": "^4.0.0",
+    "redux-logic": "^0.15.0",
+    "redux-logic-test": "^2.0.0",
+    "redux-thunk": "^2.2.0",
+    "styled-components": "^3.3.3",
+    "toastr": "^2.1.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-plugin-transform-export-extensions": "^6.22.0",
+    "chai": "^4.2.0",
+    "chai-enzyme": "^1.0.0-beta.1",
+    "enzyme": "^3.7.0",
+    "enzyme-adapter-react-16": "^1.6.0",
+    "react-test-renderer": "^16.4.0",
+    "redux-mock-store": "^1.5.3"
+  },
+  "scripts": {
+    "start": "fixme --path ./src && react-scripts start",
+    "todo": "fixme",
+    "docs": "jsdoc -r ./src",
+    "build": "react-scripts build",
+    "depcheck": "depcheck",
+    "precommit": "fixme --path ./src",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
